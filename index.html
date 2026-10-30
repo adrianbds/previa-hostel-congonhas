@@ -1,0 +1,2228 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Prévia Hostel Congonhas</title>
+<meta name="description" content="Prévia de site de hostel perto do Aeroporto de Congonhas, em 8 idiomas.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Crect width=%2724%27 height=%2724%27 rx=%276%27 fill=%27%231C5BC4%27/%3E%3Cpath d=%27M5 8h14M5 12.5h14M5 17h14%27 stroke=%27white%27 stroke-width=%272.2%27 stroke-linecap=%27round%27/%3E%3C/svg%3E">
+<meta name="robots" content="noindex">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+
+<style>
+
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/big-shoulders-display-600.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(fonts/big-shoulders-display-800.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/ibm-plex-mono-500.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/ibm-plex-mono-600.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/instrument-sans-400.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/instrument-sans-500.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/instrument-sans-600.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* Layout: aeroporto como linguagem — painel de chegadas, cartão de embarque e pista de Congonhas; paleta da marca: azul e branco */
+:root{
+  --bg:#F4F7FB;          /* branco azulado */
+  --surface:#FFFFFF;
+  --surface-2:#F0F4FA;
+  --ink:#0F2140;         /* azul-marinho */
+  --muted:#526079;
+  --line:#D8E1EE;
+  --accent:#1C5BC4;      /* azul da marca */
+  --accent-ink:#FFFFFF;
+  --accent-soft:#E3ECFA;
+  --sky:#2F7DE1;
+  --sky-soft:#E6F0FC;
+  --board:#0F2140;
+  --board-cell:#1A3260;
+  --board-fg:#FFFFFF;
+  --wood:#1C5BC4;
+  --garden:#4F86D4;
+  --shadow:0 1px 2px rgba(15,33,64,.06),0 12px 32px -12px rgba(15,33,64,.2);
+  --f-display:"Big Shoulders Display","Arial Narrow","Roboto Condensed",sans-serif;
+  --f-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI","Hiragino Sans","Microsoft YaHei","PingFang SC",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0A1424;--surface:#101D33;--surface-2:#14243F;--ink:#E9F0FA;--muted:#9AAAC4;--line:#22355A;
+  --accent:#5B9BFF;--accent-ink:#0A1424;--accent-soft:#16294A;--sky:#7DB3FF;--sky-soft:#152B4C;
+  --board:#071022;--board-cell:#12264A;--board-fg:#FFFFFF;--wood:#3E7BE0;--garden:#5B8FD6;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 32px -12px rgba(0,0,0,.6);color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0A1424;--surface:#101D33;--surface-2:#14243F;--ink:#E9F0FA;--muted:#9AAAC4;--line:#22355A;
+  --accent:#5B9BFF;--accent-ink:#0A1424;--accent-soft:#16294A;--sky:#7DB3FF;--sky-soft:#152B4C;
+  --board:#071022;--board-cell:#12264A;--board-fg:#FFFFFF;--wood:#3E7BE0;--garden:#5B8FD6;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 12px 32px -12px rgba(0,0,0,.6);color-scheme:dark}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--surface)}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--sky);outline-offset:2px;border-radius:6px}
+h1,h2,h3{text-wrap:balance;margin:0}
+p{margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--f-mono);font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600;display:flex;align-items:center;gap:.6rem}
+.eyebrow::before{content:"";width:22px;height:2px;background:currentColor}
+.h2{font-family:var(--f-display);font-weight:800;font-size:clamp(2.1rem,4.4vw,3.3rem);line-height:.98;text-transform:uppercase;letter-spacing:.005em}
+.lead{color:var(--muted);max-width:60ch}
+.section{padding-block:clamp(64px,9vw,112px)}
+.sec-head{display:grid;gap:14px;margin-bottom:clamp(28px,4vw,44px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;border:0;border-radius:999px;padding:.8rem 1.35rem;font-weight:600;text-decoration:none;cursor:pointer;transition:transform .15s ease,background .15s ease,box-shadow .15s ease;white-space:nowrap}
+.btn-accent{background:var(--accent);color:var(--accent-ink)}
+.btn-accent:hover{transform:translateY(-1px);box-shadow:0 8px 20px -8px var(--accent)}
+.btn-ghost{background:transparent;border:1.5px solid var(--line)}
+.btn-ghost:hover{border-color:var(--ink)}
+.ico{width:1.25em;height:1.25em;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* faixa de prévia + header */
+.strip{background:var(--ink);color:var(--bg);font-family:var(--f-mono);font-size:.72rem;letter-spacing:.06em;text-align:center;padding-block:7px}
+.strip .wrap{display:block}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid var(--line)}
+.top-in{display:flex;align-items:center;gap:20px;height:70px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:none}
+.brand-mark{width:38px;height:38px;border-radius:10px;background:var(--accent);display:grid;place-items:center}
+.brand-mark svg{width:24px;height:24px}
+.brand-txt{display:grid;line-height:1}
+.brand-txt b{font-family:var(--f-display);font-weight:800;font-size:1.45rem;letter-spacing:.03em;text-transform:uppercase}
+.brand-txt span{font-family:var(--f-mono);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+nav.main{display:flex;gap:4px;margin-left:auto}
+nav.main button{background:none;border:0;padding:.5rem .7rem;border-radius:8px;cursor:pointer;font-weight:500;font-size:.94rem;color:var(--muted)}
+nav.main button:hover{color:var(--ink);background:var(--surface-2)}
+.top-actions{display:flex;align-items:center;gap:10px}
+.burger{display:none;background:none;border:1.5px solid var(--line);border-radius:10px;width:42px;height:42px;place-items:center;cursor:pointer}
+@media (max-width:1040px){nav.main{display:none}.top-actions{margin-left:auto}.burger{display:grid}}
+@media (max-width:520px){.top-actions .btn-accent{display:none}.brand-txt span{display:none}}
+
+/* seletor de idioma */
+.lang{position:relative}
+.lang-btn{display:flex;align-items:center;gap:8px;background:var(--surface);border:1.5px solid var(--line);border-radius:999px;padding:.42rem .7rem .42rem .5rem;cursor:pointer;font-family:var(--f-mono);font-size:.8rem;font-weight:600}
+.lang-btn:hover{border-color:var(--ink)}
+.flag{width:24px;height:16px;border-radius:3px;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,.12);overflow:hidden;display:block}
+.lang-menu{position:absolute;right:0;top:calc(100% + 8px);background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:6px;width:236px;display:grid;gap:2px;z-index:70}
+.lang-opt{display:flex;align-items:center;gap:12px;padding:.55rem .7rem;border-radius:9px;background:none;border:0;cursor:pointer;text-align:left;width:100%}
+.lang-opt:hover{background:var(--surface-2)}
+.lang-opt[aria-checked="true"]{background:var(--accent-soft)}
+.lang-opt small{margin-left:auto;font-family:var(--f-mono);font-size:.7rem;color:var(--muted)}
+
+/* drawer mobile */
+.drawer{position:fixed;inset:0;z-index:80;background:var(--surface);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.drawer-head{display:flex;align-items:center;justify-content:space-between;height:70px}
+.drawer nav{display:grid;gap:2px;padding-block:8px}
+.drawer nav button{background:none;border:0;border-bottom:1px solid var(--line);text-align:left;padding:1rem 0;font-family:var(--f-display);font-weight:800;font-size:1.9rem;text-transform:uppercase;cursor:pointer}
+.drawer .langs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding-block:20px}
+.drawer .langs .lang-opt{border:1px solid var(--line)}
+.drawer-foot{margin-top:auto;padding-block:16px}
+.drawer-foot .btn{width:100%}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding-block:clamp(36px,6vw,72px) clamp(56px,7vw,88px)}
+.hero-bg{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.hero-bg .rwy{position:absolute;right:-6%;top:-12%;width:58%;height:140%;background:var(--ink);opacity:.045;transform:rotate(-10deg);border-radius:6px}
+.hero-bg .rwy::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:8px;margin-left:-4px;background:repeating-linear-gradient(var(--bg) 0 46px,transparent 46px 92px);opacity:1}
+.hero-bg .cgh{position:absolute;right:2%;bottom:-6%;font-family:var(--f-display);font-weight:800;font-size:clamp(9rem,26vw,22rem);line-height:.8;color:var(--ink);opacity:.05;letter-spacing:-.02em}
+.hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:clamp(28px,5vw,64px);align-items:start}
+@media (max-width:900px){.hero-grid{grid-template-columns:minmax(0,1fr)}}
+.hero h1{font-family:var(--f-display);font-weight:800;text-transform:uppercase;font-size:clamp(2.9rem,7.2vw,5.6rem);line-height:.9;letter-spacing:-.005em;margin-top:18px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero .lead{margin-top:20px;font-size:1.08rem}
+:lang(zh) .hero h1,:lang(ja) .hero h1,:lang(zh) .h2,:lang(ja) .h2{font-family:var(--f-body);font-weight:700;letter-spacing:0;line-height:1.15}
+:lang(zh) .hero h1,:lang(ja) .hero h1{font-size:clamp(2.2rem,5vw,3.9rem)}
+
+/* painel de chegadas */
+.board{margin-top:30px;background:var(--board);border-radius:var(--r);padding:16px;box-shadow:var(--shadow);max-width:560px}
+.board-head{display:flex;justify-content:space-between;align-items:center;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:#8FA0AD;padding:0 4px 12px}
+.board-head .live{display:flex;align-items:center;gap:6px;color:var(--board-fg)}
+.board-head .live i{width:7px;height:7px;border-radius:50%;background:var(--board-fg);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+.board-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 4px;border-top:1px solid rgba(255,255,255,.07)}
+.board-row span{color:#C9D3DA;font-size:.9rem;min-width:0}
+.flap{display:flex;gap:3px;flex:none}
+.flap b{font-family:var(--f-mono);font-weight:600;font-size:.95rem;color:var(--board-fg);background:var(--board-cell);min-width:1.15em;text-align:center;padding:3px 2px;border-radius:3px;position:relative;line-height:1.25}
+.flap b::after{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:rgba(0,0,0,.55)}
+.flap b.sp{background:transparent;min-width:.45em}
+.flap b.sp::after{display:none}
+
+/* cartão de embarque (busca) */
+.pass{background:var(--surface);border-radius:20px;box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--line)}
+.pass-top{background:var(--accent);color:var(--accent-ink);padding:18px 22px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.pass-top b{font-family:var(--f-display);font-weight:800;font-size:1.5rem;text-transform:uppercase;letter-spacing:.04em}
+.pass-top span{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.14em;opacity:.85}
+.route{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:12px;padding:22px 22px 18px}
+.route .code{font-family:var(--f-display);font-weight:800;font-size:2.6rem;line-height:1}
+.route small{display:block;font-family:var(--f-mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.route .nm{font-size:.84rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.route .to{text-align:right}
+.route .path{display:flex;align-items:center;gap:6px;color:var(--accent)}
+.route .path i{width:34px;border-top:2px dashed var(--line)}
+.perf{position:relative;height:0;border-top:2px dashed var(--line);margin:0 22px}
+.perf::before,.perf::after{content:"";position:absolute;top:-13px;width:24px;height:24px;border-radius:50%;background:var(--bg)}
+.perf::before{left:-35px}.perf::after{right:-35px}
+.pass form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;padding:20px 22px 22px}
+.field{display:grid;gap:6px;min-width:0}
+.field label{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.field input,.field select{width:100%;border:1.5px solid var(--line);background:var(--surface-2);border-radius:10px;padding:.7rem .75rem;min-width:0}
+.field input:focus,.field select:focus{outline:none;border-color:var(--sky);box-shadow:0 0 0 3px var(--sky-soft)}
+.pass .full{grid-column:1/-1}
+.pass .btn{width:100%;padding:1rem}
+.pass .note{font-size:.82rem;color:var(--muted);text-align:center;display:flex;gap:6px;justify-content:center;align-items:center}
+.err{color:var(--accent);font-size:.86rem;font-weight:600}
+@media (max-width:420px){.pass form{grid-template-columns:minmax(0,1fr)}.route .code{font-size:2.1rem}}
+
+/* comodidades */
+.amen{background:var(--surface);border-block:1px solid var(--line)}
+.amen-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.amen-item{background:var(--surface);padding:26px 24px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start}
+.amen-item .ic{width:46px;height:46px;border-radius:12px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center}
+.amen-item .ic .ico{width:24px;height:24px}
+.amen-item h3{font-size:1.05rem;font-weight:600}
+.amen-item p{color:var(--muted);font-size:.92rem}
+@media (max-width:860px){.amen-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:540px){.amen-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* fotos (placeholders) */
+.ph{position:relative;border-radius:var(--r);overflow:hidden;display:grid;place-items:center;color:rgba(255,255,255,.92);min-height:160px;isolation:isolate}
+.ph::before{content:"";position:absolute;inset:0;z-index:-1;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.07) 0 2px,transparent 2px 38px)}
+.ph .ico{width:38px;height:38px;stroke-width:1.4}
+.ph figcaption{position:absolute;left:12px;bottom:12px;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;background:rgba(0,0,0,.35);padding:4px 8px;border-radius:6px}
+.t-wood{background:linear-gradient(140deg,var(--wood),#0E3270)}
+.t-garden{background:linear-gradient(140deg,var(--garden),#24508F)}
+.t-sky{background:linear-gradient(140deg,#7FA9E0,#3D6DB5)}
+.t-ink{background:linear-gradient(140deg,#24406B,#0F2140)}
+.t-accent{background:linear-gradient(140deg,#2F7DE1,#0B2E66)}
+.t-sand{background:linear-gradient(140deg,#A9C3E8,#5E84BD)}
+
+/* sobre */
+.about-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
+.about-text{display:grid;gap:18px}
+.about-text p{color:var(--muted);max-width:56ch}
+.mosaic{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:200px 200px;gap:12px}
+.mosaic .ph:first-child{grid-row:span 2}
+.facts{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:.4rem .85rem;font-size:.86rem;font-weight:500}
+.chip .ico{color:var(--accent);width:1.05em;height:1.05em}
+@media (max-width:860px){.about-grid{grid-template-columns:minmax(0,1fr)}.mosaic{grid-template-rows:170px 170px}}
+
+/* quartos */
+.rooms-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.room{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.room .ph{border-radius:0;min-height:190px}
+.room-body{padding:20px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.room-body h3{font-family:var(--f-display);font-weight:800;font-size:1.6rem;text-transform:uppercase;line-height:1}
+:lang(zh) .room-body h3,:lang(ja) .room-body h3{font-family:var(--f-body);font-weight:700;font-size:1.25rem}
+.room-body p{color:var(--muted);font-size:.93rem}
+.room-tags{display:flex;flex-wrap:wrap;gap:8px}
+.room-tags span{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--muted);background:var(--surface-2);border-radius:8px;padding:.25rem .55rem}
+.room-tags .ico{width:1em;height:1em}
+.room-foot{margin-top:auto;padding-top:14px;border-top:1px dashed var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.room-foot small{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);letter-spacing:.04em}
+.room-foot .btn{padding:.6rem 1rem;font-size:.9rem}
+.note-ex{font-family:var(--f-mono);font-size:.74rem;color:var(--muted)}
+@media (max-width:900px){.rooms-grid{grid-template-columns:minmax(0,1fr)}.room{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}.room .ph{min-height:100%}}
+@media (max-width:560px){.room{display:flex}.room .ph{min-height:170px}}
+
+/* região */
+.region{background:var(--surface);border-block:1px solid var(--line)}
+.region-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,64px);align-items:center}
+.places{display:grid;gap:10px;margin-top:24px}
+.place{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:14px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface-2)}
+.place .ic{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:var(--sky-soft);color:var(--sky)}
+.place b{font-weight:600}
+.place small{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.map{background:var(--surface-2);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.map>svg{display:block;width:100%;height:auto}
+.map-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:14px 16px;border-top:1px solid var(--line);font-size:.88rem;color:var(--muted)}
+@media (max-width:900px){.region-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* políticas */
+.pol-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pol{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:20px;display:grid;gap:8px;align-content:start}
+.pol .k{display:flex;align-items:center;gap:10px;font-family:var(--f-mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.pol .k .ico{color:var(--accent)}
+.pol p{font-size:1.02rem;font-weight:500}
+@media (max-width:860px){.pol-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:540px){.pol-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* galeria */
+.gal{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:180px;gap:12px}
+.gal .ph:nth-child(1){grid-column:span 2;grid-row:span 2}
+.gal .ph:nth-child(4){grid-column:span 2}
+.gal .ph:nth-child(5),.gal .ph:nth-child(6){grid-column:span 2}
+@media (max-width:760px){.gal{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:150px}.gal .ph:nth-child(1){grid-row:span 1}.gal .ph:nth-child(4),.gal .ph:nth-child(5){grid-column:span 1}}
+
+/* contato */
+.cta{background:var(--ink);color:var(--bg);border-radius:24px;padding:clamp(28px,5vw,56px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);position:relative;overflow:hidden}
+.cta .h2{color:var(--bg)}
+.cta .eyebrow{color:var(--board-fg)}
+.cta .lead{color:color-mix(in srgb,var(--bg) 70%,transparent);margin-top:14px}
+.cta-list{display:grid;gap:10px;align-content:start}
+.cta-item{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:14px;background:color-mix(in srgb,var(--bg) 8%,transparent);border:1px solid color-mix(in srgb,var(--bg) 14%,transparent);border-radius:14px;padding:14px 16px}
+.cta-item .ico{width:22px;height:22px;color:var(--board-fg)}
+.cta-item small{display:block;font-family:var(--f-mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;opacity:.65}
+.cta-item span{display:block;overflow-wrap:anywhere;user-select:all}
+.mini{background:transparent;border:1px solid color-mix(in srgb,var(--bg) 25%,transparent);color:var(--bg);border-radius:8px;padding:.35rem .6rem;font-size:.78rem;cursor:pointer;white-space:nowrap}
+.mini:hover{border-color:var(--bg)}
+.cta-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.cta .btn-ghost{border-color:color-mix(in srgb,var(--bg) 30%,transparent);color:var(--bg)}
+@media (max-width:860px){.cta{grid-template-columns:minmax(0,1fr)}}
+
+footer.foot{padding-block:36px 96px;color:var(--muted);font-size:.86rem}
+.foot-in{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center;border-top:1px solid var(--line);padding-top:24px}
+
+.fab{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;width:58px;height:58px;border-radius:50%;background:#1FA855;color:#fff;display:grid;place-items:center;box-shadow:0 10px 26px -8px rgba(31,168,85,.7);text-decoration:none;transition:transform .15s}
+.fab:hover{transform:scale(1.06)}
+.fab .ico{width:28px;height:28px;stroke-width:1.7}
+
+.reveal{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+.reveal.d1{animation-delay:.08s}.reveal.d2{animation-delay:.16s}.reveal.d3{animation-delay:.26s}
+@keyframes rise{from{transform:translateY(14px)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<div id="root"></div>
+
+<script src="vendor/react.js"></script>
+<script src="vendor/react-dom.js"></script>
+
+<script>
+"use strict";
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+const {
+  useState,
+  useEffect,
+  useRef,
+  useMemo
+} = React;
+
+/* ===== CONFIG DO HOSTEL (trocar aqui) ===== */
+const SITE = {
+  brand: "Seu Hostel",
+  mark: "Hostel",
+  sub: "Congonhas · prévia",
+  address: "Campo Belo, São Paulo – SP · endereço completo na versão final",
+  dist: "200 m",
+  whatsapp: "5511900000000",
+  whatsappLabel: "+55 (11) 90000-0000",
+  email: "reservas@seuhostel.com.br",
+  instagram: "@seuhostel",
+  maps: "https://www.google.com/maps/search/?api=1&query=Aeroporto+de+Congonhas"
+};
+/* ========================================== */
+
+const LANGS = [{
+  code: "pt",
+  name: "Português",
+  flag: "br",
+  locale: "pt-BR"
+}, {
+  code: "en",
+  name: "English",
+  flag: "us",
+  locale: "en-US"
+}, {
+  code: "es",
+  name: "Español",
+  flag: "es",
+  locale: "es-ES"
+}, {
+  code: "fr",
+  name: "Français",
+  flag: "fr",
+  locale: "fr-FR"
+}, {
+  code: "de",
+  name: "Deutsch",
+  flag: "de",
+  locale: "de-DE"
+}, {
+  code: "it",
+  name: "Italiano",
+  flag: "it",
+  locale: "it-IT"
+}, {
+  code: "zh",
+  name: "中文",
+  flag: "cn",
+  locale: "zh-CN"
+}, {
+  code: "ja",
+  name: "日本語",
+  flag: "jp",
+  locale: "ja-JP"
+}];
+const T = {
+  pt: {
+    nav: ["Início", "O hostel", "Quartos", "A região", "Políticas", "Contato"],
+    book: "Reservar",
+    eyebrow: "Hostel no Campo Belo · São Paulo",
+    title: ["Seu voo pousa.", "Sua cama está logo ali."],
+    sub: "Quartos compartilhados e privativos a poucos passos do Aeroporto de Congonhas. Café da manhã incluso, Wi-Fi grátis e check-in até 23h.",
+    board: ["Painel de chegadas", "Check-in", "Check-out", "Café da manhã", "Aeroporto CGH"],
+    pass: {
+      title: "Cartão de embarque",
+      from: "De",
+      to: "Para",
+      fromVal: "Aeroporto de Congonhas",
+      in: "Entrada",
+      out: "Saída",
+      guests: "Hóspedes",
+      room: "Quarto",
+      any: "Qualquer",
+      cta: "Ver disponibilidade",
+      note: "A reserva é confirmada pelo WhatsApp em minutos.",
+      err: "A saída precisa ser depois da entrada.",
+      msg: "Olá! Quero reservar de {in} a {out}, {g} hóspede(s), quarto: {r}."
+    },
+    amenT: "Tudo o que você precisa entre um voo e outro",
+    amen: [["Wi-Fi grátis", "Em todo o hostel"], ["Café da manhã", "Incluso, das 7h às 9h"], ["Jardim", "Para relaxar ao ar livre"], ["Check-in até 23h", "Chegou tarde? Tudo bem"], ["Perto do metrô", "Fácil chegar ao resto da cidade"], ["Aeroporto a pé", "Sem táxi e sem trânsito"]],
+    about: ["O hostel", "Um pouso tranquilo no Campo Belo", "Ficamos numa rua residencial do Campo Belo, ao lado de Congonhas. É o lugar certo para quem tem voo cedo, conexão longa ou compromisso na zona sul de São Paulo.", "Recebemos viajantes do Brasil e do mundo com quartos simples, limpos e um jardim para desacelerar."],
+    rooms: {
+      eyebrow: "Quartos",
+      title: "Escolha onde descansar",
+      note: "Tipos de quarto de exemplo para esta prévia.",
+      list: [["Compartilhado misto", "Beliches com cortina, tomada individual e armário com cadeado."], ["Compartilhado feminino", "Quarto só para mulheres, com beliches e armários individuais."], ["Quarto privativo", "Para quem viaja a dois ou quer mais privacidade."]],
+      bath: "Banheiro compartilhado",
+      price: "Tarifa sob consulta",
+      cta: "Reservar este quarto"
+    },
+    region: {
+      eyebrow: "A região",
+      title: "No meio do caminho de tudo",
+      text: "O Campo Belo é um bairro tranquilo, com padarias, restaurantes e mercados por perto. Do hostel você vai a pé ao aeroporto e de metrô ao resto da cidade.",
+      places: ["Aeroporto de Congonhas", "Estação de metrô", "Shopping Ibirapuera", "Parque Ibirapuera"],
+      cats: ["Aeroporto", "Transporte", "Compras", "Lazer"]
+    },
+    pol: {
+      eyebrow: "Antes de embarcar",
+      title: "Políticas do hostel",
+      list: [["Check-in", "Das 13h às 23h"], ["Check-out", "Até 12h"], ["Documento", "Documento com foto e cartão de crédito no check-in"], ["Animais", "Apenas animais de serviço"], ["Estacionamento", "Não temos estacionamento no local"], ["Café da manhã", "Incluso na diária"]]
+    },
+    gal: {
+      title: "Galeria",
+      note: "As fotos do hostel entram aqui.",
+      caps: ["Recepção", "Quarto misto", "Jardim", "Café da manhã", "Quarto privativo", "Fachada"]
+    },
+    contact: {
+      eyebrow: "Contato",
+      title: "Fale com a gente",
+      sub: "Respondemos rápido pelo WhatsApp.",
+      address: "Endereço",
+      wa: "WhatsApp",
+      mail: "E-mail",
+      maps: "Abrir no Google Maps",
+      copy: "Copiar",
+      copied: "Copiado"
+    },
+    foot: ["Todos os direitos reservados.", "Prévia de layout · fotos, preços e contatos são ilustrativos"],
+    ui: ["Idioma", "Menu", "Fechar"]
+  },
+  en: {
+    nav: ["Home", "The hostel", "Rooms", "The area", "Policies", "Contact"],
+    book: "Book now",
+    eyebrow: "Hostel in Campo Belo · São Paulo",
+    title: ["Your flight lands.", "Your bed is right there."],
+    sub: "Shared and private rooms a short walk from Congonhas Airport. Breakfast included, free Wi-Fi and check-in until 11 pm.",
+    board: ["Arrivals", "Check-in", "Check-out", "Breakfast", "CGH Airport"],
+    pass: {
+      title: "Boarding pass",
+      from: "From",
+      to: "To",
+      fromVal: "Congonhas Airport",
+      in: "Check-in",
+      out: "Check-out",
+      guests: "Guests",
+      room: "Room",
+      any: "Any",
+      cta: "Check availability",
+      note: "Your booking is confirmed on WhatsApp within minutes.",
+      err: "Check-out must be after check-in.",
+      msg: "Hi! I'd like to book from {in} to {out}, {g} guest(s), room: {r}."
+    },
+    amenT: "Everything you need between flights",
+    amen: [["Free Wi-Fi", "All over the hostel"], ["Breakfast", "Included, 7 to 9 am"], ["Garden", "Unwind outdoors"], ["Check-in until 11 pm", "Late arrival? No problem"], ["Near the metro", "Easy to reach the rest of the city"], ["Walk to the airport", "No taxi, no traffic"]],
+    about: ["The hostel", "A quiet landing in Campo Belo", "We are on a residential street in Campo Belo, right next to Congonhas. The right place for early flights, long layovers or business in the south of São Paulo.", "We welcome travelers from Brazil and around the world with simple, clean rooms and a garden to slow down."],
+    rooms: {
+      eyebrow: "Rooms",
+      title: "Choose where to rest",
+      note: "Room types are examples for this preview.",
+      list: [["Mixed dorm", "Bunk beds with curtains, a private outlet and a locker."], ["Female dorm", "Women-only room with bunk beds and individual lockers."], ["Private room", "For couples or anyone who wants more privacy."]],
+      bath: "Shared bathroom",
+      price: "Rate on request",
+      cta: "Book this room"
+    },
+    region: {
+      eyebrow: "The area",
+      title: "Halfway to everything",
+      text: "Campo Belo is a calm neighborhood with bakeries, restaurants and markets nearby. Walk to the airport and take the metro to the rest of the city.",
+      places: ["Congonhas Airport", "Metro station", "Ibirapuera Mall", "Ibirapuera Park"],
+      cats: ["Airport", "Transit", "Shopping", "Leisure"]
+    },
+    pol: {
+      eyebrow: "Before you board",
+      title: "Hostel policies",
+      list: [["Check-in", "1 pm to 11 pm"], ["Check-out", "Until 12 pm"], ["ID", "Photo ID and a credit card at check-in"], ["Pets", "Service animals only"], ["Parking", "No on-site parking"], ["Breakfast", "Included in the rate"]]
+    },
+    gal: {
+      title: "Gallery",
+      note: "Hostel photos go here.",
+      caps: ["Reception", "Mixed dorm", "Garden", "Breakfast", "Private room", "Front"]
+    },
+    contact: {
+      eyebrow: "Contact",
+      title: "Talk to us",
+      sub: "We answer fast on WhatsApp.",
+      address: "Address",
+      wa: "WhatsApp",
+      mail: "Email",
+      maps: "Open in Google Maps",
+      copy: "Copy",
+      copied: "Copied"
+    },
+    foot: ["All rights reserved.", "Layout preview · photos, prices and contacts are placeholders"],
+    ui: ["Language", "Menu", "Close"]
+  },
+  es: {
+    nav: ["Inicio", "El hostel", "Habitaciones", "La zona", "Políticas", "Contacto"],
+    book: "Reservar",
+    eyebrow: "Hostel en Campo Belo · São Paulo",
+    title: ["Tu vuelo aterriza.", "Tu cama está ahí al lado."],
+    sub: "Habitaciones compartidas y privadas a pocos pasos del Aeropuerto de Congonhas. Desayuno incluido, Wi-Fi gratis y check-in hasta las 23 h.",
+    board: ["Llegadas", "Check-in", "Check-out", "Desayuno", "Aeropuerto CGH"],
+    pass: {
+      title: "Tarjeta de embarque",
+      from: "Desde",
+      to: "Hacia",
+      fromVal: "Aeropuerto de Congonhas",
+      in: "Entrada",
+      out: "Salida",
+      guests: "Huéspedes",
+      room: "Habitación",
+      any: "Cualquiera",
+      cta: "Ver disponibilidad",
+      note: "La reserva se confirma por WhatsApp en minutos.",
+      err: "La salida debe ser posterior a la entrada.",
+      msg: "¡Hola! Quiero reservar del {in} al {out}, {g} huésped(es), habitación: {r}."
+    },
+    amenT: "Todo lo que necesitas entre un vuelo y otro",
+    amen: [["Wi-Fi gratis", "En todo el hostel"], ["Desayuno", "Incluido, de 7 a 9 h"], ["Jardín", "Para relajarte al aire libre"], ["Check-in hasta las 23 h", "¿Llegas tarde? No pasa nada"], ["Cerca del metro", "Fácil llegar al resto de la ciudad"], ["Aeropuerto a pie", "Sin taxi ni tráfico"]],
+    about: ["El hostel", "Un aterrizaje tranquilo en Campo Belo", "Estamos en una calle residencial de Campo Belo, junto a Congonhas. El lugar ideal para vuelos temprano, escalas largas o compromisos en la zona sur de São Paulo.", "Recibimos viajeros de Brasil y del mundo con habitaciones sencillas, limpias y un jardín para desconectar."],
+    rooms: {
+      eyebrow: "Habitaciones",
+      title: "Elige dónde descansar",
+      note: "Los tipos de habitación son ejemplos para esta vista previa.",
+      list: [["Dormitorio mixto", "Literas con cortina, enchufe individual y taquilla."], ["Dormitorio femenino", "Solo para mujeres, con literas y taquillas individuales."], ["Habitación privada", "Para parejas o quien quiera más privacidad."]],
+      bath: "Baño compartido",
+      price: "Tarifa a consultar",
+      cta: "Reservar esta habitación"
+    },
+    region: {
+      eyebrow: "La zona",
+      title: "A mitad de camino de todo",
+      text: "Campo Belo es un barrio tranquilo con panaderías, restaurantes y mercados cerca. Vas al aeropuerto a pie y al resto de la ciudad en metro.",
+      places: ["Aeropuerto de Congonhas", "Estación de metro", "Shopping Ibirapuera", "Parque Ibirapuera"],
+      cats: ["Aeropuerto", "Transporte", "Compras", "Ocio"]
+    },
+    pol: {
+      eyebrow: "Antes de embarcar",
+      title: "Políticas del hostel",
+      list: [["Check-in", "De 13 a 23 h"], ["Check-out", "Hasta las 12 h"], ["Documento", "Documento con foto y tarjeta de crédito en el check-in"], ["Mascotas", "Solo animales de servicio"], ["Estacionamiento", "No tenemos estacionamiento"], ["Desayuno", "Incluido en la tarifa"]]
+    },
+    gal: {
+      title: "Galería",
+      note: "Aquí van las fotos del hostel.",
+      caps: ["Recepción", "Dormitorio mixto", "Jardín", "Desayuno", "Habitación privada", "Fachada"]
+    },
+    contact: {
+      eyebrow: "Contacto",
+      title: "Habla con nosotros",
+      sub: "Respondemos rápido por WhatsApp.",
+      address: "Dirección",
+      wa: "WhatsApp",
+      mail: "Correo",
+      maps: "Abrir en Google Maps",
+      copy: "Copiar",
+      copied: "Copiado"
+    },
+    foot: ["Todos los derechos reservados.", "Vista previa · fotos, precios y contactos ilustrativos"],
+    ui: ["Idioma", "Menú", "Cerrar"]
+  },
+  fr: {
+    nav: ["Accueil", "L'auberge", "Chambres", "Le quartier", "Règles", "Contact"],
+    book: "Réserver",
+    eyebrow: "Auberge à Campo Belo · São Paulo",
+    title: ["Votre avion atterrit.", "Votre lit est juste à côté."],
+    sub: "Dortoirs et chambres privées à quelques pas de l'aéroport de Congonhas. Petit-déjeuner inclus, Wi-Fi gratuit et arrivée jusqu'à 23 h.",
+    board: ["Arrivées", "Arrivée", "Départ", "Petit-déjeuner", "Aéroport CGH"],
+    pass: {
+      title: "Carte d'embarquement",
+      from: "De",
+      to: "À",
+      fromVal: "Aéroport de Congonhas",
+      in: "Arrivée",
+      out: "Départ",
+      guests: "Voyageurs",
+      room: "Chambre",
+      any: "Peu importe",
+      cta: "Voir les disponibilités",
+      note: "La réservation est confirmée sur WhatsApp en quelques minutes.",
+      err: "Le départ doit être après l'arrivée.",
+      msg: "Bonjour ! Je voudrais réserver du {in} au {out}, {g} voyageur(s), chambre : {r}."
+    },
+    amenT: "Tout ce qu'il faut entre deux vols",
+    amen: [["Wi-Fi gratuit", "Dans toute l'auberge"], ["Petit-déjeuner", "Inclus, de 7 h à 9 h"], ["Jardin", "Pour se détendre dehors"], ["Arrivée jusqu'à 23 h", "Arrivée tardive ? Pas de souci"], ["Près du métro", "Toute la ville à portée"], ["Aéroport à pied", "Ni taxi ni bouchons"]],
+    about: ["L'auberge", "Un atterrissage en douceur à Campo Belo", "Nous sommes dans une rue résidentielle de Campo Belo, juste à côté de Congonhas. L'adresse idéale pour un vol matinal, une longue escale ou un rendez-vous dans le sud de São Paulo.", "Nous accueillons des voyageurs du Brésil et du monde entier avec des chambres simples et propres, et un jardin pour souffler."],
+    rooms: {
+      eyebrow: "Chambres",
+      title: "Choisissez où vous reposer",
+      note: "Les types de chambre sont des exemples pour cet aperçu.",
+      list: [["Dortoir mixte", "Lits superposés avec rideau, prise individuelle et casier."], ["Dortoir féminin", "Réservé aux femmes, avec lits superposés et casiers."], ["Chambre privée", "Pour les couples ou qui veut plus d'intimité."]],
+      bath: "Salle de bain partagée",
+      price: "Tarif sur demande",
+      cta: "Réserver cette chambre"
+    },
+    region: {
+      eyebrow: "Le quartier",
+      title: "À mi-chemin de tout",
+      text: "Campo Belo est un quartier calme, avec boulangeries, restaurants et supérettes à proximité. L'aéroport à pied, le reste de la ville en métro.",
+      places: ["Aéroport de Congonhas", "Station de métro", "Shopping Ibirapuera", "Parc Ibirapuera"],
+      cats: ["Aéroport", "Transport", "Shopping", "Loisirs"]
+    },
+    pol: {
+      eyebrow: "Avant d'embarquer",
+      title: "Règles de l'auberge",
+      list: [["Arrivée", "De 13 h à 23 h"], ["Départ", "Jusqu'à 12 h"], ["Pièce d'identité", "Pièce d'identité avec photo et carte bancaire à l'arrivée"], ["Animaux", "Animaux d'assistance uniquement"], ["Parking", "Pas de parking sur place"], ["Petit-déjeuner", "Inclus dans le tarif"]]
+    },
+    gal: {
+      title: "Galerie",
+      note: "Les photos de l'auberge iront ici.",
+      caps: ["Réception", "Dortoir mixte", "Jardin", "Petit-déjeuner", "Chambre privée", "Façade"]
+    },
+    contact: {
+      eyebrow: "Contact",
+      title: "Écrivez-nous",
+      sub: "Nous répondons vite sur WhatsApp.",
+      address: "Adresse",
+      wa: "WhatsApp",
+      mail: "E-mail",
+      maps: "Ouvrir dans Google Maps",
+      copy: "Copier",
+      copied: "Copié"
+    },
+    foot: ["Tous droits réservés.", "Aperçu · photos, prix et contacts fictifs"],
+    ui: ["Langue", "Menu", "Fermer"]
+  },
+  de: {
+    nav: ["Start", "Das Hostel", "Zimmer", "Die Gegend", "Hausregeln", "Kontakt"],
+    book: "Buchen",
+    eyebrow: "Hostel in Campo Belo · São Paulo",
+    title: ["Ihr Flug landet.", "Ihr Bett ist gleich da."],
+    sub: "Schlafsäle und Privatzimmer nur ein paar Schritte vom Flughafen Congonhas. Frühstück inklusive, kostenloses WLAN und Check-in bis 23 Uhr.",
+    board: ["Ankunft", "Check-in", "Check-out", "Frühstück", "Flughafen CGH"],
+    pass: {
+      title: "Bordkarte",
+      from: "Von",
+      to: "Nach",
+      fromVal: "Flughafen Congonhas",
+      in: "Anreise",
+      out: "Abreise",
+      guests: "Gäste",
+      room: "Zimmer",
+      any: "Egal",
+      cta: "Verfügbarkeit prüfen",
+      note: "Die Buchung wird in wenigen Minuten per WhatsApp bestätigt.",
+      err: "Die Abreise muss nach der Anreise liegen.",
+      msg: "Hallo! Ich möchte vom {in} bis {out} buchen, {g} Gast/Gäste, Zimmer: {r}."
+    },
+    amenT: "Alles, was Sie zwischen zwei Flügen brauchen",
+    amen: [["Kostenloses WLAN", "Im ganzen Hostel"], ["Frühstück", "Inklusive, 7 bis 9 Uhr"], ["Garten", "Entspannen im Freien"], ["Check-in bis 23 Uhr", "Späte Ankunft? Kein Problem"], ["Nahe der Metro", "Schnell überall in der Stadt"], ["Zu Fuß zum Flughafen", "Kein Taxi, kein Stau"]],
+    about: ["Das Hostel", "Eine ruhige Landung in Campo Belo", "Wir liegen in einer Wohnstraße in Campo Belo, direkt neben Congonhas. Ideal für frühe Flüge, lange Umstiege oder Termine im Süden von São Paulo.", "Wir empfangen Reisende aus Brasilien und der ganzen Welt mit einfachen, sauberen Zimmern und einem Garten zum Abschalten."],
+    rooms: {
+      eyebrow: "Zimmer",
+      title: "Wählen Sie Ihren Schlafplatz",
+      note: "Die Zimmertypen sind Beispiele für diese Vorschau.",
+      list: [["Gemischter Schlafsaal", "Etagenbetten mit Vorhang, eigener Steckdose und Schließfach."], ["Frauenschlafsaal", "Nur für Frauen, mit Etagenbetten und eigenen Schließfächern."], ["Privatzimmer", "Für Paare oder alle, die mehr Privatsphäre wollen."]],
+      bath: "Gemeinsames Bad",
+      price: "Preis auf Anfrage",
+      cta: "Dieses Zimmer buchen"
+    },
+    region: {
+      eyebrow: "Die Gegend",
+      title: "Auf halbem Weg zu allem",
+      text: "Campo Belo ist ein ruhiges Viertel mit Bäckereien, Restaurants und Märkten in der Nähe. Zum Flughafen zu Fuß, in den Rest der Stadt mit der Metro.",
+      places: ["Flughafen Congonhas", "Metrostation", "Shopping Ibirapuera", "Ibirapuera-Park"],
+      cats: ["Flughafen", "Verkehr", "Einkaufen", "Freizeit"]
+    },
+    pol: {
+      eyebrow: "Vor dem Boarding",
+      title: "Hausregeln",
+      list: [["Check-in", "13 bis 23 Uhr"], ["Check-out", "Bis 12 Uhr"], ["Ausweis", "Lichtbildausweis und Kreditkarte beim Check-in"], ["Haustiere", "Nur Assistenztiere"], ["Parken", "Keine Parkplätze vor Ort"], ["Frühstück", "Im Preis inbegriffen"]]
+    },
+    gal: {
+      title: "Galerie",
+      note: "Hier kommen die Fotos des Hostels hin.",
+      caps: ["Rezeption", "Gemischter Schlafsaal", "Garten", "Frühstück", "Privatzimmer", "Fassade"]
+    },
+    contact: {
+      eyebrow: "Kontakt",
+      title: "Schreiben Sie uns",
+      sub: "Wir antworten schnell per WhatsApp.",
+      address: "Adresse",
+      wa: "WhatsApp",
+      mail: "E-Mail",
+      maps: "In Google Maps öffnen",
+      copy: "Kopieren",
+      copied: "Kopiert"
+    },
+    foot: ["Alle Rechte vorbehalten.", "Vorschau · Fotos, Preise und Kontakte sind Platzhalter"],
+    ui: ["Sprache", "Menü", "Schließen"]
+  },
+  it: {
+    nav: ["Home", "L'ostello", "Camere", "La zona", "Regole", "Contatti"],
+    book: "Prenota",
+    eyebrow: "Ostello a Campo Belo · San Paolo",
+    title: ["Il tuo volo atterra.", "Il tuo letto è proprio lì."],
+    sub: "Camerate e camere private a pochi passi dall'aeroporto di Congonhas. Colazione inclusa, Wi-Fi gratuito e check-in fino alle 23.",
+    board: ["Arrivi", "Check-in", "Check-out", "Colazione", "Aeroporto CGH"],
+    pass: {
+      title: "Carta d'imbarco",
+      from: "Da",
+      to: "A",
+      fromVal: "Aeroporto di Congonhas",
+      in: "Arrivo",
+      out: "Partenza",
+      guests: "Ospiti",
+      room: "Camera",
+      any: "Qualsiasi",
+      cta: "Verifica disponibilità",
+      note: "La prenotazione è confermata su WhatsApp in pochi minuti.",
+      err: "La partenza deve essere dopo l'arrivo.",
+      msg: "Ciao! Vorrei prenotare dal {in} al {out}, {g} ospite/i, camera: {r}."
+    },
+    amenT: "Tutto ciò che serve tra un volo e l'altro",
+    amen: [["Wi-Fi gratuito", "In tutto l'ostello"], ["Colazione", "Inclusa, dalle 7 alle 9"], ["Giardino", "Per rilassarsi all'aperto"], ["Check-in fino alle 23", "Arrivi tardi? Nessun problema"], ["Vicino alla metro", "Il resto della città a portata"], ["Aeroporto a piedi", "Niente taxi, niente traffico"]],
+    about: ["L'ostello", "Un atterraggio tranquillo a Campo Belo", "Siamo in una via residenziale di Campo Belo, proprio accanto a Congonhas. Il posto giusto per voli all'alba, scali lunghi o impegni nella zona sud di San Paolo.", "Accogliamo viaggiatori dal Brasile e da tutto il mondo con camere semplici e pulite e un giardino per rallentare."],
+    rooms: {
+      eyebrow: "Camere",
+      title: "Scegli dove riposare",
+      note: "I tipi di camera sono esempi per questa anteprima.",
+      list: [["Camerata mista", "Letti a castello con tenda, presa personale e armadietto."], ["Camerata femminile", "Solo per donne, con letti a castello e armadietti individuali."], ["Camera privata", "Per coppie o per chi vuole più privacy."]],
+      bath: "Bagno in comune",
+      price: "Tariffa su richiesta",
+      cta: "Prenota questa camera"
+    },
+    region: {
+      eyebrow: "La zona",
+      title: "A metà strada da tutto",
+      text: "Campo Belo è un quartiere tranquillo con panetterie, ristoranti e negozi vicini. All'aeroporto a piedi, nel resto della città in metro.",
+      places: ["Aeroporto di Congonhas", "Stazione della metro", "Shopping Ibirapuera", "Parco Ibirapuera"],
+      cats: ["Aeroporto", "Trasporti", "Shopping", "Tempo libero"]
+    },
+    pol: {
+      eyebrow: "Prima dell'imbarco",
+      title: "Regole dell'ostello",
+      list: [["Check-in", "Dalle 13 alle 23"], ["Check-out", "Entro le 12"], ["Documento", "Documento con foto e carta di credito al check-in"], ["Animali", "Solo animali di assistenza"], ["Parcheggio", "Nessun parcheggio in loco"], ["Colazione", "Inclusa nella tariffa"]]
+    },
+    gal: {
+      title: "Galleria",
+      note: "Qui andranno le foto dell'ostello.",
+      caps: ["Reception", "Camerata mista", "Giardino", "Colazione", "Camera privata", "Facciata"]
+    },
+    contact: {
+      eyebrow: "Contatti",
+      title: "Scrivici",
+      sub: "Rispondiamo in fretta su WhatsApp.",
+      address: "Indirizzo",
+      wa: "WhatsApp",
+      mail: "E-mail",
+      maps: "Apri in Google Maps",
+      copy: "Copia",
+      copied: "Copiato"
+    },
+    foot: ["Tutti i diritti riservati.", "Anteprima · foto, prezzi e contatti sono segnaposto"],
+    ui: ["Lingua", "Menu", "Chiudi"]
+  },
+  zh: {
+    nav: ["首页", "旅舍介绍", "房型", "周边", "入住须知", "联系我们"],
+    book: "立即预订",
+    eyebrow: "圣保罗 · Campo Belo 青年旅舍",
+    title: ["航班落地，", "床位就在旁边。"],
+    sub: "多人间和独立房，步行即可到达孔戈尼亚斯机场。含早餐，免费 Wi-Fi，最晚 23:00 办理入住。",
+    board: ["到达信息", "入住", "退房", "早餐", "CGH 机场"],
+    pass: {
+      title: "登机牌",
+      from: "出发",
+      to: "到达",
+      fromVal: "孔戈尼亚斯机场",
+      in: "入住日期",
+      out: "退房日期",
+      guests: "人数",
+      room: "房型",
+      any: "不限",
+      cta: "查看空房",
+      note: "通过 WhatsApp 几分钟内确认预订。",
+      err: "退房日期必须晚于入住日期。",
+      msg: "您好！我想预订 {in} 至 {out}，{g} 位客人，房型：{r}。"
+    },
+    amenT: "转机之间，所需一应俱全",
+    amen: [["免费 Wi-Fi", "覆盖整个旅舍"], ["早餐", "含早餐，7:00–9:00"], ["花园", "在户外放松"], ["23:00 前入住", "晚到也没关系"], ["靠近地铁", "轻松前往市区各处"], ["步行到机场", "无需打车，不怕堵车"]],
+    about: ["旅舍介绍", "在 Campo Belo 安心落地", "我们位于 Campo Belo 一条安静的住宅街，紧邻孔戈尼亚斯机场。适合赶早班机、长时间转机或在圣保罗南区办事的旅客。", "我们以简洁干净的房间和一座花园，迎接来自巴西和世界各地的旅行者。"],
+    rooms: {
+      eyebrow: "房型",
+      title: "选择您的休息之处",
+      note: "房型为本预览的示例。",
+      list: [["混合多人间", "带帘子的上下铺，独立插座和储物柜。"], ["女生多人间", "仅限女性，上下铺和独立储物柜。"], ["独立房", "适合情侣或需要更多私密空间的旅客。"]],
+      bath: "公共卫浴",
+      price: "价格请咨询",
+      cta: "预订此房型"
+    },
+    region: {
+      eyebrow: "周边",
+      title: "去哪儿都方便",
+      text: "Campo Belo 是一个安静的街区，附近有面包店、餐厅和超市。步行即可到机场，乘地铁前往市区各处。",
+      places: ["孔戈尼亚斯机场", "地铁站", "Ibirapuera 购物中心", "Ibirapuera 公园"],
+      cats: ["机场", "交通", "购物", "休闲"]
+    },
+    pol: {
+      eyebrow: "登机前须知",
+      title: "旅舍规定",
+      list: [["入住", "13:00–23:00"], ["退房", "12:00 前"], ["证件", "入住时请出示带照片的证件和信用卡"], ["宠物", "仅限服务动物"], ["停车", "旅舍无停车位"], ["早餐", "房费已含"]]
+    },
+    gal: {
+      title: "图片",
+      note: "旅舍照片将放在这里。",
+      caps: ["前台", "混合多人间", "花园", "早餐", "独立房", "外观"]
+    },
+    contact: {
+      eyebrow: "联系我们",
+      title: "和我们聊聊",
+      sub: "我们在 WhatsApp 上回复很快。",
+      address: "地址",
+      wa: "WhatsApp",
+      mail: "电子邮箱",
+      maps: "在 Google 地图中打开",
+      copy: "复制",
+      copied: "已复制"
+    },
+    foot: ["版权所有。", "布局预览 · 照片、价格和联系方式均为示例"],
+    ui: ["语言", "菜单", "关闭"]
+  },
+  ja: {
+    nav: ["ホーム", "ホステルについて", "客室", "周辺", "ご利用案内", "お問い合わせ"],
+    book: "予約する",
+    eyebrow: "サンパウロ・カンポベロのホステル",
+    title: ["飛行機が着いたら、", "ベッドはすぐそこ。"],
+    sub: "コンゴーニャス空港から歩いてすぐのドミトリーと個室。朝食付き、Wi-Fi無料、チェックインは23時まで。",
+    board: ["到着案内", "チェックイン", "チェックアウト", "朝食", "CGH空港"],
+    pass: {
+      title: "搭乗券",
+      from: "出発",
+      to: "到着",
+      fromVal: "コンゴーニャス空港",
+      in: "チェックイン",
+      out: "チェックアウト",
+      guests: "人数",
+      room: "客室",
+      any: "指定なし",
+      cta: "空室を確認",
+      note: "ご予約はWhatsAppで数分以内に確定します。",
+      err: "チェックアウトはチェックインより後の日付にしてください。",
+      msg: "こんにちは！{in}から{out}まで、{g}名で予約したいです。客室：{r}"
+    },
+    amenT: "フライトの合間に必要なものがすべて",
+    amen: [["無料Wi-Fi", "館内全域で利用可能"], ["朝食", "付き・7時〜9時"], ["庭", "屋外でのんびり"], ["23時までチェックイン", "遅い到着でも大丈夫"], ["地下鉄の近く", "市内どこへでも簡単"], ["空港まで徒歩", "タクシーも渋滞も不要"]],
+    about: ["ホステルについて", "カンポベロで、静かに着陸", "カンポベロの閑静な住宅街、コンゴーニャス空港のすぐそばにあります。早朝便や長い乗り継ぎ、サンパウロ南部での用事に最適です。", "シンプルで清潔な客室と庭で、ブラジルや世界中の旅行者をお迎えします。"],
+    rooms: {
+      eyebrow: "客室",
+      title: "休む場所を選ぶ",
+      note: "客室タイプはこのプレビュー用の例です。",
+      list: [["男女混合ドミトリー", "カーテン付き二段ベッド、専用コンセントとロッカー付き。"], ["女性専用ドミトリー", "女性専用。二段ベッドと個人ロッカー付き。"], ["個室", "カップルやプライバシーを重視する方に。"]],
+      bath: "共用バスルーム",
+      price: "料金はお問い合わせください",
+      cta: "この客室を予約"
+    },
+    region: {
+      eyebrow: "周辺",
+      title: "どこへ行くにも便利",
+      text: "カンポベロは静かな地区で、近くにパン屋、レストラン、スーパーがあります。空港へは徒歩、市内へは地下鉄で。",
+      places: ["コンゴーニャス空港", "地下鉄駅", "イビラプエラ・ショッピング", "イビラプエラ公園"],
+      cats: ["空港", "交通", "ショッピング", "レジャー"]
+    },
+    pol: {
+      eyebrow: "ご搭乗の前に",
+      title: "ご利用案内",
+      list: [["チェックイン", "13:00〜23:00"], ["チェックアウト", "12:00まで"], ["身分証", "チェックイン時に写真付き身分証とクレジットカードをご提示ください"], ["ペット", "補助犬のみ可"], ["駐車場", "駐車場はありません"], ["朝食", "料金に含まれます"]]
+    },
+    gal: {
+      title: "ギャラリー",
+      note: "ここにホステルの写真が入ります。",
+      caps: ["受付", "男女混合ドミトリー", "庭", "朝食", "個室", "外観"]
+    },
+    contact: {
+      eyebrow: "お問い合わせ",
+      title: "お気軽にどうぞ",
+      sub: "WhatsAppで素早くお返事します。",
+      address: "住所",
+      wa: "WhatsApp",
+      mail: "メール",
+      maps: "Googleマップで開く",
+      copy: "コピー",
+      copied: "コピーしました"
+    },
+    foot: ["All rights reserved.", "レイアウトのプレビュー・写真、料金、連絡先は仮のものです"],
+    ui: ["言語", "メニュー", "閉じる"]
+  }
+};
+
+/* ===== ícones ===== */
+const P = {
+  wifi: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M2 8.8a15 15 0 0 1 20 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5 12.3a10 10 0 0 1 14 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.5 15.8a5 5 0 0 1 7 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 19.2h.01"
+  })),
+  coffee: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M4 9h13v4.5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M17 10h1.5a2.5 2.5 0 0 1 0 5H17"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8 3.5v2.5M12 3.5v2.5"
+  })),
+  leaf: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M5 19c0-8 5-13 14-14 0 9-5 14-13 14z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5 19l7-7"
+  })),
+  moon: /*#__PURE__*/React.createElement("path", {
+    d: "M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"
+  }),
+  train: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "5",
+    y: "3",
+    width: "14",
+    height: "14",
+    rx: "3"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5 10h14M8.5 21l2-4M15.5 21l-2-4M9 13.5h.01M15 13.5h.01"
+  })),
+  plane: /*#__PURE__*/React.createElement("path", {
+    d: "M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"
+  }),
+  bed: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M3 18V6M3 13h18v5M21 13a3 3 0 0 0-3-3h-7v3"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "7",
+    cy: "10.5",
+    r: "1.5"
+  })),
+  users: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("circle", {
+    cx: "9",
+    cy: "7.5",
+    r: "3.5"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M2.5 20a6.5 6.5 0 0 1 13 0M16 4.3a3.5 3.5 0 0 1 0 6.4M18 14.5a6.5 6.5 0 0 1 3.5 5.5"
+  })),
+  door: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M5 21V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v17M3 21h18"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M15 12h.01"
+  })),
+  out: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M14 4h4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M10 16l-4-4 4-4M6 12h10"
+  })),
+  id: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "3",
+    y: "4",
+    width: "18",
+    height: "16",
+    rx: "2"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "9",
+    cy: "10.5",
+    r: "2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M6 16a3 3 0 0 1 6 0M15 9h3M15 13h3"
+  })),
+  paw: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("circle", {
+    cx: "7",
+    cy: "9",
+    r: "1.6"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "17",
+    cy: "9",
+    r: "1.6"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "10",
+    cy: "5.5",
+    r: "1.6"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "14",
+    cy: "5.5",
+    r: "1.6"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 12c-3 0-5 3.5-5 5.5 0 1.5 1 2 2.3 2 1 0 1.7-.5 2.7-.5s1.7.5 2.7.5c1.3 0 2.3-.5 2.3-2 0-2-2-5.5-5-5.5z"
+  })),
+  car: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M5 17h14v-5l-2-5H7l-2 5z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5 12h14M7.5 17v2M16.5 17v2M8 14.5h.01M16 14.5h.01"
+  })),
+  pin: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "10",
+    r: "2.5"
+  })),
+  mail: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "3",
+    y: "5",
+    width: "18",
+    height: "14",
+    rx: "2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M3 7l9 6 9-6"
+  })),
+  insta: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "3",
+    y: "3",
+    width: "18",
+    height: "18",
+    rx: "5"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "4"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M17.5 6.5h.01"
+  })),
+  wa: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M4 20l1.3-3.9A8 8 0 1 1 8 19z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9 9.2c0 3.2 2.6 5.8 5.8 5.8l1.2-1.4-2.1-1-1 .8a4 4 0 0 1-2.3-2.3l.8-1-1-2.1z"
+  })),
+  menu: /*#__PURE__*/React.createElement("path", {
+    d: "M4 7h16M4 12h16M4 17h16"
+  }),
+  x: /*#__PURE__*/React.createElement("path", {
+    d: "M6 6l12 12M18 6L6 18"
+  }),
+  chev: /*#__PURE__*/React.createElement("path", {
+    d: "M6 9l6 6 6-6"
+  }),
+  arrow: /*#__PURE__*/React.createElement("path", {
+    d: "M5 12h14M13 6l6 6-6 6"
+  }),
+  bag: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M6 7h12l-1 13H7z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9 7a3 3 0 0 1 6 0"
+  })),
+  tree: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M12 22v-5"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 3l-6 8h3l-4 5h14l-4-5h3z"
+  })),
+  check: /*#__PURE__*/React.createElement("path", {
+    d: "M5 12.5l4.5 4.5L19 7.5"
+  }),
+  img: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "3",
+    y: "4",
+    width: "18",
+    height: "16",
+    rx: "2"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "9",
+    cy: "10",
+    r: "2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M21 16l-5-5-9 9"
+  }))
+};
+const Ico = _ref => {
+  let {
+    n,
+    ...r
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: "ico",
+    viewBox: "0 0 24 24",
+    "aria-hidden": "true"
+  }, r), P[n]);
+};
+
+/* ===== bandeiras (SVG inline: emoji de bandeira não aparece no Windows) ===== */
+const star = function (cx, cy, R) {
+  let rot = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : -90;
+  const pts = [];
+  for (let i = 0; i < 10; i++) {
+    const r = i % 2 ? R * 0.382 : R,
+      a = (rot + i * 36) * Math.PI / 180;
+    pts.push((cx + r * Math.cos(a)).toFixed(2) + "," + (cy + r * Math.sin(a)).toFixed(2));
+  }
+  return pts.join(" ");
+};
+const FLAGS = {
+  br: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "30",
+    height: "20",
+    fill: "#009C3B"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M15 2.2 27.6 10 15 17.8 2.4 10z",
+    fill: "#FFDF00"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "15",
+    cy: "10",
+    r: "4.6",
+    fill: "#002776"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M10.6 9.1q4.6-1.5 8.8 1.2",
+    stroke: "#fff",
+    strokeWidth: ".9",
+    fill: "none"
+  })),
+  us: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "30",
+    height: "20",
+    fill: "#fff"
+  }), [0, 2, 4, 6, 8, 10, 12].map(i => /*#__PURE__*/React.createElement("rect", {
+    key: i,
+    y: i * 20 / 13,
+    width: "30",
+    height: 20 / 13,
+    fill: "#B22234"
+  })), /*#__PURE__*/React.createElement("rect", {
+    width: "13",
+    height: 20 * 7 / 13,
+    fill: "#3C3B6E"
+  }), [0, 1, 2, 3].map(r => [0, 1, 2, 3, 4].map(c => /*#__PURE__*/React.createElement("circle", {
+    key: r + "-" + c,
+    cx: 1.6 + c * 2.45 + r % 2 * 1.2,
+    cy: 1.6 + r * 2.5,
+    r: ".45",
+    fill: "#fff"
+  })))),
+  es: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "30",
+    height: "20",
+    fill: "#AA151B"
+  }), /*#__PURE__*/React.createElement("rect", {
+    y: "5",
+    width: "30",
+    height: "10",
+    fill: "#F1BF00"
+  })),
+  fr: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "10",
+    height: "20",
+    fill: "#0055A4"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: "10",
+    width: "10",
+    height: "20",
+    fill: "#fff"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: "20",
+    width: "10",
+    height: "20",
+    fill: "#EF4135"
+  })),
+  de: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "30",
+    height: "6.67",
+    fill: "#000"
+  }), /*#__PURE__*/React.createElement("rect", {
+    y: "6.67",
+    width: "30",
+    height: "6.67",
+    fill: "#DD0000"
+  }), /*#__PURE__*/React.createElement("rect", {
+    y: "13.33",
+    width: "30",
+    height: "6.67",
+    fill: "#FFCE00"
+  })),
+  it: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "10",
+    height: "20",
+    fill: "#009246"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: "10",
+    width: "10",
+    height: "20",
+    fill: "#fff"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: "20",
+    width: "10",
+    height: "20",
+    fill: "#CE2B37"
+  })),
+  cn: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "30",
+    height: "20",
+    fill: "#EE1C25"
+  }), /*#__PURE__*/React.createElement("polygon", {
+    points: star(5, 5, 3),
+    fill: "#FFFF00"
+  }), [[10, 2, 30], [12, 4, 50], [12, 7, 70], [10, 9, 90]].map((_ref2, i) => {
+    let [x, y, r] = _ref2;
+    return /*#__PURE__*/React.createElement("polygon", {
+      key: i,
+      points: star(x, y, 1, r),
+      fill: "#FFFF00"
+    });
+  })),
+  jp: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    width: "30",
+    height: "20",
+    fill: "#fff"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "15",
+    cy: "10",
+    r: "6",
+    fill: "#BC002D"
+  }))
+};
+const Flag = _ref3 => {
+  let {
+    code
+  } = _ref3;
+  return /*#__PURE__*/React.createElement("svg", {
+    className: "flag",
+    viewBox: "0 0 30 20",
+    "aria-hidden": "true"
+  }, FLAGS[code]);
+};
+
+/* ===== util ===== */
+const store = {
+  get(k) {
+    try {
+      return localStorage.getItem(k);
+    } catch (e) {
+      return null;
+    }
+  },
+  set(k, v) {
+    try {
+      localStorage.setItem(k, v);
+    } catch (e) {}
+  }
+};
+const pickLang = () => {
+  const h = (location.hash || "").replace("#", "");
+  if (T[h]) return h;
+  const s = store.get("deck-lang");
+  if (s && T[s]) return s;
+  const nav = (navigator.languages || [navigator.language || "pt"]).map(l => l.slice(0, 2).toLowerCase());
+  return nav.find(l => T[l]) || "pt";
+};
+const iso = d => new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+const addDays = (s, n) => {
+  const d = new Date(s + "T12:00:00");
+  d.setDate(d.getDate() + n);
+  return iso(d);
+};
+const go = id => document.getElementById(id)?.scrollIntoView({
+  behavior: "smooth",
+  block: "start"
+});
+const SECTIONS = ["inicio", "hostel", "quartos", "regiao", "politicas", "contato"];
+
+/* ===== letreiro split-flap ===== */
+const CH = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789:–";
+function Flap(_ref4) {
+  let {
+    text
+  } = _ref4;
+  const [shown, setShown] = useState(text);
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setShown(text);
+      return;
+    }
+    let f = 0;
+    const total = 14;
+    const id = setInterval(() => {
+      f++;
+      setShown(text.split("").map((c, i) => c === " " || f > total - (text.length - i) * 0.6 - 4 ? c : CH[Math.random() * CH.length | 0]).join(""));
+      if (f >= total) {
+        clearInterval(id);
+        setShown(text);
+      }
+    }, 55);
+    return () => clearInterval(id);
+  }, [text]);
+  return /*#__PURE__*/React.createElement("span", {
+    className: "flap",
+    "aria-label": text
+  }, shown.split("").map((c, i) => /*#__PURE__*/React.createElement("b", {
+    key: i,
+    className: c === " " ? "sp" : "",
+    "aria-hidden": "true"
+  }, c)));
+}
+
+/* ===== componentes ===== */
+function Logo() {
+  return /*#__PURE__*/React.createElement("a", {
+    className: "brand",
+    href: "#",
+    onClick: e => {
+      e.preventDefault();
+      go("inicio");
+    },
+    "aria-label": SITE.brand
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "brand-mark"
+  }, /*#__PURE__*/React.createElement("svg", {
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "var(--accent-ink)",
+    strokeWidth: "2.2",
+    strokeLinecap: "round"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M4 8h16M4 12.5h16M4 17h16"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8 8v9M16 8v9",
+    strokeWidth: "1.4",
+    opacity: ".55"
+  }))), /*#__PURE__*/React.createElement("span", {
+    className: "brand-txt"
+  }, /*#__PURE__*/React.createElement("b", null, SITE.mark), /*#__PURE__*/React.createElement("span", null, SITE.sub)));
+}
+function LangSwitch(_ref5) {
+  let {
+    lang,
+    setLang,
+    t
+  } = _ref5;
+  const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+  const cur = LANGS.find(l => l.code === lang);
+  useEffect(() => {
+    if (!open) return;
+    const close = e => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false);
+    };
+    const esc = e => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("mousedown", close);
+    document.addEventListener("keydown", esc);
+    return () => {
+      document.removeEventListener("mousedown", close);
+      document.removeEventListener("keydown", esc);
+    };
+  }, [open]);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "lang",
+    ref: ref
+  }, /*#__PURE__*/React.createElement("button", {
+    id: "lang-btn",
+    className: "lang-btn",
+    "aria-haspopup": "menu",
+    "aria-expanded": open,
+    "aria-label": t.ui[0] + ": " + cur.name,
+    onClick: () => setOpen(o => !o)
+  }, /*#__PURE__*/React.createElement(Flag, {
+    code: cur.flag
+  }), cur.code.toUpperCase(), /*#__PURE__*/React.createElement(Ico, {
+    n: "chev",
+    style: {
+      width: 14,
+      height: 14
+    }
+  })), open && /*#__PURE__*/React.createElement("div", {
+    className: "lang-menu",
+    role: "menu"
+  }, LANGS.map(l => /*#__PURE__*/React.createElement("button", {
+    key: l.code,
+    role: "menuitemradio",
+    "aria-checked": l.code === lang,
+    className: "lang-opt",
+    onClick: () => {
+      setLang(l.code);
+      setOpen(false);
+    }
+  }, /*#__PURE__*/React.createElement(Flag, {
+    code: l.flag
+  }), l.name, /*#__PURE__*/React.createElement("small", null, l.code.toUpperCase())))));
+}
+function Header(_ref6) {
+  let {
+    t,
+    lang,
+    setLang
+  } = _ref6;
+  const [menu, setMenu] = useState(false);
+  useEffect(() => {
+    document.body.style.overflow = menu ? "hidden" : "";
+  }, [menu]);
+  const nav = id => {
+    setMenu(false);
+    setTimeout(() => go(id), 10);
+  };
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    className: "strip"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, t.foot[1])), /*#__PURE__*/React.createElement("header", {
+    className: "top"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap top-in"
+  }, /*#__PURE__*/React.createElement(Logo, null), /*#__PURE__*/React.createElement("nav", {
+    className: "main",
+    "aria-label": "Menu"
+  }, t.nav.map((n, i) => /*#__PURE__*/React.createElement("button", {
+    key: i,
+    onClick: () => go(SECTIONS[i])
+  }, n))), /*#__PURE__*/React.createElement("div", {
+    className: "top-actions"
+  }, /*#__PURE__*/React.createElement(LangSwitch, {
+    lang: lang,
+    setLang: setLang,
+    t: t
+  }), /*#__PURE__*/React.createElement("button", {
+    className: "btn btn-accent",
+    onClick: () => go("reservar")
+  }, t.book), /*#__PURE__*/React.createElement("button", {
+    className: "burger",
+    "aria-label": t.ui[1],
+    onClick: () => setMenu(true)
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "menu"
+  }))))), menu && /*#__PURE__*/React.createElement("div", {
+    className: "drawer",
+    role: "dialog",
+    "aria-modal": "true",
+    "aria-label": t.ui[1]
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap",
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      flex: 1,
+      overflowY: "auto"
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "drawer-head"
+  }, /*#__PURE__*/React.createElement(Logo, null), /*#__PURE__*/React.createElement("button", {
+    className: "burger",
+    style: {
+      display: "grid"
+    },
+    "aria-label": t.ui[2],
+    onClick: () => setMenu(false)
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "x"
+  }))), /*#__PURE__*/React.createElement("nav", null, t.nav.map((n, i) => /*#__PURE__*/React.createElement("button", {
+    key: i,
+    onClick: () => nav(SECTIONS[i])
+  }, n))), /*#__PURE__*/React.createElement("div", {
+    className: "langs",
+    role: "menu",
+    "aria-label": t.ui[0]
+  }, LANGS.map(l => /*#__PURE__*/React.createElement("button", {
+    key: l.code,
+    role: "menuitemradio",
+    "aria-checked": l.code === lang,
+    className: "lang-opt",
+    onClick: () => setLang(l.code)
+  }, /*#__PURE__*/React.createElement(Flag, {
+    code: l.flag
+  }), l.name))), /*#__PURE__*/React.createElement("div", {
+    className: "drawer-foot"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn btn-accent",
+    onClick: () => nav("reservar")
+  }, t.book)))));
+}
+function BookingPass(_ref7) {
+  let {
+    t,
+    lang,
+    room,
+    setRoom
+  } = _ref7;
+  const today = useMemo(() => iso(new Date()), []);
+  const [cin, setCin] = useState(today);
+  const [cout, setCout] = useState(addDays(today, 1));
+  const [guests, setGuests] = useState("1");
+  const bad = cout <= cin;
+  const locale = LANGS.find(l => l.code === lang).locale;
+  const fmt = s => new Date(s + "T12:00:00").toLocaleDateString(locale, {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  });
+  const roomName = room === "any" ? t.pass.any : t.rooms.list[+room][0];
+  const msg = t.pass.msg.replace("{in}", fmt(cin)).replace("{out}", fmt(cout)).replace("{g}", guests).replace("{r}", roomName);
+  const href = "https://wa.me/" + SITE.whatsapp + "?text=" + encodeURIComponent(msg);
+  const onIn = v => {
+    setCin(v);
+    if (cout <= v) setCout(addDays(v, 1));
+  };
+  return /*#__PURE__*/React.createElement("div", {
+    className: "pass reveal d2",
+    id: "reservar"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "pass-top"
+  }, /*#__PURE__*/React.createElement("b", null, t.pass.title), /*#__PURE__*/React.createElement("span", null, "CGH \u2192 ", SITE.mark.toUpperCase())), /*#__PURE__*/React.createElement("div", {
+    className: "route"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("small", null, t.pass.from), /*#__PURE__*/React.createElement("div", {
+    className: "code"
+  }, "CGH"), /*#__PURE__*/React.createElement("div", {
+    className: "nm"
+  }, t.pass.fromVal)), /*#__PURE__*/React.createElement("div", {
+    className: "path"
+  }, /*#__PURE__*/React.createElement("i", null), /*#__PURE__*/React.createElement(Ico, {
+    n: "plane",
+    style: {
+      transform: "rotate(90deg)"
+    }
+  }), /*#__PURE__*/React.createElement("i", null)), /*#__PURE__*/React.createElement("div", {
+    className: "to"
+  }, /*#__PURE__*/React.createElement("small", null, t.pass.to), /*#__PURE__*/React.createElement("div", {
+    className: "code"
+  }, SITE.mark.slice(0, 3).toUpperCase()), /*#__PURE__*/React.createElement("div", {
+    className: "nm"
+  }, SITE.brand))), /*#__PURE__*/React.createElement("div", {
+    className: "perf"
+  }), /*#__PURE__*/React.createElement("form", {
+    onSubmit: e => e.preventDefault()
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "field"
+  }, /*#__PURE__*/React.createElement("label", {
+    htmlFor: "f-in"
+  }, t.pass.in), /*#__PURE__*/React.createElement("input", {
+    id: "f-in",
+    type: "date",
+    min: today,
+    value: cin,
+    onChange: e => onIn(e.target.value)
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "field"
+  }, /*#__PURE__*/React.createElement("label", {
+    htmlFor: "f-out"
+  }, t.pass.out), /*#__PURE__*/React.createElement("input", {
+    id: "f-out",
+    type: "date",
+    min: addDays(cin, 1),
+    value: cout,
+    onChange: e => setCout(e.target.value),
+    "aria-invalid": bad
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "field"
+  }, /*#__PURE__*/React.createElement("label", {
+    htmlFor: "f-g"
+  }, t.pass.guests), /*#__PURE__*/React.createElement("select", {
+    id: "f-g",
+    value: guests,
+    onChange: e => setGuests(e.target.value)
+  }, [1, 2, 3, 4, 5, 6, 7, 8].map(n => /*#__PURE__*/React.createElement("option", {
+    key: n,
+    value: n
+  }, n)))), /*#__PURE__*/React.createElement("div", {
+    className: "field"
+  }, /*#__PURE__*/React.createElement("label", {
+    htmlFor: "f-r"
+  }, t.pass.room), /*#__PURE__*/React.createElement("select", {
+    id: "f-r",
+    value: room,
+    onChange: e => setRoom(e.target.value)
+  }, /*#__PURE__*/React.createElement("option", {
+    value: "any"
+  }, t.pass.any), t.rooms.list.map((r, i) => /*#__PURE__*/React.createElement("option", {
+    key: i,
+    value: i
+  }, r[0])))), bad && /*#__PURE__*/React.createElement("p", {
+    className: "err full",
+    role: "alert"
+  }, t.pass.err), /*#__PURE__*/React.createElement("div", {
+    className: "full"
+  }, bad ? /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "btn btn-accent",
+    disabled: true,
+    style: {
+      opacity: .5,
+      cursor: "not-allowed"
+    }
+  }, t.pass.cta, /*#__PURE__*/React.createElement(Ico, {
+    n: "arrow"
+  })) : /*#__PURE__*/React.createElement("a", {
+    className: "btn btn-accent",
+    href: href,
+    target: "_blank",
+    rel: "noopener"
+  }, t.pass.cta, /*#__PURE__*/React.createElement(Ico, {
+    n: "arrow"
+  }))), /*#__PURE__*/React.createElement("p", {
+    className: "note full"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "wa",
+    style: {
+      width: 16,
+      height: 16
+    }
+  }), t.pass.note)));
+}
+function Hero(_ref8) {
+  let {
+    t,
+    lang,
+    room,
+    setRoom
+  } = _ref8;
+  const rows = [[t.board[1], "13:00"], [t.board[2], "12:00"], [t.board[3], "07:00–09:00"], [t.board[4], SITE.dist.toUpperCase()]];
+  return /*#__PURE__*/React.createElement("section", {
+    className: "hero",
+    id: "inicio"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "hero-bg",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "rwy"
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "cgh"
+  }, "CGH")), /*#__PURE__*/React.createElement("div", {
+    className: "wrap hero-grid"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow reveal"
+  }, t.eyebrow), /*#__PURE__*/React.createElement("h1", {
+    className: "reveal d1"
+  }, t.title[0], /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("em", null, t.title[1])), /*#__PURE__*/React.createElement("p", {
+    className: "lead reveal d2"
+  }, t.sub), /*#__PURE__*/React.createElement("div", {
+    className: "board reveal d3",
+    "aria-label": t.board[0]
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "board-head"
+  }, /*#__PURE__*/React.createElement("span", null, t.board[0], " \xB7 CGH"), /*#__PURE__*/React.createElement("span", {
+    className: "live"
+  }, /*#__PURE__*/React.createElement("i", null), "RWY 17R/35L")), rows.map((_ref9, i) => {
+    let [k, v] = _ref9;
+    return /*#__PURE__*/React.createElement("div", {
+      className: "board-row",
+      key: i
+    }, /*#__PURE__*/React.createElement("span", null, k), /*#__PURE__*/React.createElement(Flap, {
+      text: v
+    }));
+  }))), /*#__PURE__*/React.createElement(BookingPass, {
+    t: t,
+    lang: lang,
+    room: room,
+    setRoom: setRoom
+  })));
+}
+function Amenities(_ref10) {
+  let {
+    t
+  } = _ref10;
+  const icons = ["wifi", "coffee", "leaf", "moon", "train", "plane"];
+  return /*#__PURE__*/React.createElement("section", {
+    className: "section amen"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "sec-head"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "h2"
+  }, t.amenT)), /*#__PURE__*/React.createElement("div", {
+    className: "amen-grid"
+  }, t.amen.map((_ref11, i) => {
+    let [h, p] = _ref11;
+    return /*#__PURE__*/React.createElement("div", {
+      className: "amen-item",
+      key: i
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "ic"
+    }, /*#__PURE__*/React.createElement(Ico, {
+      n: icons[i]
+    })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", null, h), /*#__PURE__*/React.createElement("p", null, p)));
+  }))));
+}
+const Photo = _ref12 => {
+  let {
+    tone,
+    icon,
+    cap,
+    style
+  } = _ref12;
+  return /*#__PURE__*/React.createElement("figure", {
+    className: "ph t-" + tone,
+    style: {
+      margin: 0,
+      ...style
+    }
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: icon
+  }), /*#__PURE__*/React.createElement("figcaption", null, cap));
+};
+function About(_ref13) {
+  let {
+    t
+  } = _ref13;
+  return /*#__PURE__*/React.createElement("section", {
+    className: "section",
+    id: "hostel"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap about-grid"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "about-text"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, t.about[0]), /*#__PURE__*/React.createElement("h2", {
+    className: "h2"
+  }, t.about[1]), /*#__PURE__*/React.createElement("p", null, t.about[2]), /*#__PURE__*/React.createElement("p", null, t.about[3]), /*#__PURE__*/React.createElement("div", {
+    className: "facts"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "chip"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "pin"
+  }), "Campo Belo \xB7 SP"), /*#__PURE__*/React.createElement("span", {
+    className: "chip"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "plane"
+  }), "CGH \xB7 ", SITE.dist), /*#__PURE__*/React.createElement("span", {
+    className: "chip"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "coffee"
+  }), "07:00\u201309:00"))), /*#__PURE__*/React.createElement("div", {
+    className: "mosaic"
+  }, /*#__PURE__*/React.createElement(Photo, {
+    tone: "wood",
+    icon: "img",
+    cap: t.gal.caps[0]
+  }), /*#__PURE__*/React.createElement(Photo, {
+    tone: "garden",
+    icon: "leaf",
+    cap: t.gal.caps[2]
+  }), /*#__PURE__*/React.createElement(Photo, {
+    tone: "sky",
+    icon: "bed",
+    cap: t.gal.caps[1]
+  }))));
+}
+function Rooms(_ref14) {
+  let {
+    t,
+    pickRoom
+  } = _ref14;
+  const meta = [["ink", "users", "4–8"], ["accent", "users", "4–6"], ["wood", "bed", "1–2"]];
+  return /*#__PURE__*/React.createElement("section", {
+    className: "section",
+    id: "quartos",
+    style: {
+      paddingTop: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "sec-head"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, t.rooms.eyebrow), /*#__PURE__*/React.createElement("h2", {
+    className: "h2"
+  }, t.rooms.title), /*#__PURE__*/React.createElement("p", {
+    className: "note-ex"
+  }, t.rooms.note)), /*#__PURE__*/React.createElement("div", {
+    className: "rooms-grid"
+  }, t.rooms.list.map((_ref15, i) => {
+    let [n, d] = _ref15;
+    return /*#__PURE__*/React.createElement("article", {
+      className: "room",
+      key: i
+    }, /*#__PURE__*/React.createElement(Photo, {
+      tone: meta[i][0],
+      icon: "bed",
+      cap: n
+    }), /*#__PURE__*/React.createElement("div", {
+      className: "room-body"
+    }, /*#__PURE__*/React.createElement("h3", null, n), /*#__PURE__*/React.createElement("p", null, d), /*#__PURE__*/React.createElement("div", {
+      className: "room-tags"
+    }, /*#__PURE__*/React.createElement("span", null, /*#__PURE__*/React.createElement(Ico, {
+      n: meta[i][1]
+    }), meta[i][2]), /*#__PURE__*/React.createElement("span", null, /*#__PURE__*/React.createElement(Ico, {
+      n: "door"
+    }), t.rooms.bath), /*#__PURE__*/React.createElement("span", null, /*#__PURE__*/React.createElement(Ico, {
+      n: "coffee"
+    }), t.amen[1][0])), /*#__PURE__*/React.createElement("div", {
+      className: "room-foot"
+    }, /*#__PURE__*/React.createElement("small", null, t.rooms.price), /*#__PURE__*/React.createElement("button", {
+      className: "btn btn-ghost",
+      onClick: () => pickRoom(String(i))
+    }, t.rooms.cta))));
+  }))));
+}
+function MapSchematic(_ref16) {
+  let {
+    t
+  } = _ref16;
+  return /*#__PURE__*/React.createElement("svg", {
+    viewBox: "0 0 420 300",
+    role: "img",
+    "aria-label": t.region.places[0]
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: "420",
+    height: "300",
+    fill: "var(--surface-2)"
+  }), /*#__PURE__*/React.createElement("g", {
+    stroke: "var(--line)",
+    strokeWidth: "6",
+    strokeLinecap: "round"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M-10 70 L430 40"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M-10 170 L430 150"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M-10 260 L430 250"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M60 -10 L90 310"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M170 -10 L190 310"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M300 -10 L320 310"
+  })), /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(-10 300 150)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: "236",
+    y: "20",
+    width: "132",
+    height: "260",
+    rx: "10",
+    fill: "var(--sky-soft)"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: "262",
+    y: "34",
+    width: "22",
+    height: "232",
+    rx: "3",
+    fill: "var(--ink)",
+    opacity: ".82"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: "314",
+    y: "44",
+    width: "22",
+    height: "212",
+    rx: "3",
+    fill: "var(--ink)",
+    opacity: ".82"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M273 44 V256",
+    stroke: "var(--surface)",
+    strokeWidth: "1.6",
+    strokeDasharray: "10 9"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M325 54 V246",
+    stroke: "var(--surface)",
+    strokeWidth: "1.6",
+    strokeDasharray: "10 9"
+  }), /*#__PURE__*/React.createElement("text", {
+    x: "273",
+    y: "30",
+    textAnchor: "middle",
+    fontFamily: "var(--f-mono)",
+    fontSize: "9",
+    fill: "var(--muted)"
+  }, "17R"), /*#__PURE__*/React.createElement("text", {
+    x: "325",
+    y: "40",
+    textAnchor: "middle",
+    fontFamily: "var(--f-mono)",
+    fontSize: "9",
+    fill: "var(--muted)"
+  }, "17L")), /*#__PURE__*/React.createElement("text", {
+    x: "345",
+    y: "290",
+    textAnchor: "middle",
+    fontFamily: "var(--f-display)",
+    fontWeight: "800",
+    fontSize: "22",
+    fill: "var(--sky)"
+  }, "CGH"), /*#__PURE__*/React.createElement("path", {
+    d: "M128 178 Q190 150 242 160",
+    stroke: "var(--accent)",
+    strokeWidth: "2.5",
+    fill: "none",
+    strokeDasharray: "6 6"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: "160",
+    y: "128",
+    width: "58",
+    height: "22",
+    rx: "11",
+    fill: "var(--accent)"
+  }), /*#__PURE__*/React.createElement("text", {
+    x: "189",
+    y: "143",
+    textAnchor: "middle",
+    fontFamily: "var(--f-mono)",
+    fontWeight: "600",
+    fontSize: "11",
+    fill: "var(--accent-ink)"
+  }, SITE.dist), /*#__PURE__*/React.createElement("circle", {
+    cx: "108",
+    cy: "222",
+    r: "11",
+    fill: "var(--sky)"
+  }), /*#__PURE__*/React.createElement("text", {
+    x: "108",
+    y: "226",
+    textAnchor: "middle",
+    fontFamily: "var(--f-body)",
+    fontWeight: "700",
+    fontSize: "11",
+    fill: "var(--surface)"
+  }, "M"), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(120 180)"
+  }, /*#__PURE__*/React.createElement("circle", {
+    r: "22",
+    fill: "var(--accent)",
+    opacity: ".18"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M0 6 C-9 -2 -11 -8 -11 -12 a11 11 0 0 1 22 0 c0 4 -2 10 -11 18z",
+    fill: "var(--accent)",
+    transform: "translate(0 -6)"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cy: "-18",
+    r: "4",
+    fill: "var(--surface)"
+  })), /*#__PURE__*/React.createElement("text", {
+    x: "120",
+    y: "214",
+    textAnchor: "middle",
+    fontFamily: "var(--f-display)",
+    fontWeight: "800",
+    fontSize: "16",
+    fill: "var(--ink)"
+  }, SITE.mark.toUpperCase()));
+}
+function Region(_ref17) {
+  let {
+    t
+  } = _ref17;
+  const icons = ["plane", "train", "bag", "tree"];
+  return /*#__PURE__*/React.createElement("section", {
+    className: "section region",
+    id: "regiao"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap region-grid"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "sec-head",
+    style: {
+      marginBottom: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, t.region.eyebrow), /*#__PURE__*/React.createElement("h2", {
+    className: "h2"
+  }, t.region.title), /*#__PURE__*/React.createElement("p", {
+    className: "lead"
+  }, t.region.text)), /*#__PURE__*/React.createElement("div", {
+    className: "places"
+  }, t.region.places.map((p, i) => /*#__PURE__*/React.createElement("div", {
+    className: "place",
+    key: i
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "ic"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: icons[i]
+  })), /*#__PURE__*/React.createElement("b", null, p), /*#__PURE__*/React.createElement("small", null, t.region.cats[i]))))), /*#__PURE__*/React.createElement("div", {
+    className: "map"
+  }, /*#__PURE__*/React.createElement(MapSchematic, {
+    t: t
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "map-foot"
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: "flex",
+      gap: 8,
+      alignItems: "center",
+      minWidth: 0
+    }
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "pin"
+  }), SITE.address), /*#__PURE__*/React.createElement("a", {
+    className: "btn btn-ghost",
+    style: {
+      padding: ".5rem .9rem",
+      fontSize: ".86rem"
+    },
+    href: SITE.maps,
+    target: "_blank",
+    rel: "noopener"
+  }, t.contact.maps)))));
+}
+function Policies(_ref18) {
+  let {
+    t
+  } = _ref18;
+  const icons = ["door", "out", "id", "paw", "car", "coffee"];
+  return /*#__PURE__*/React.createElement("section", {
+    className: "section",
+    id: "politicas"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "sec-head"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, t.pol.eyebrow), /*#__PURE__*/React.createElement("h2", {
+    className: "h2"
+  }, t.pol.title)), /*#__PURE__*/React.createElement("div", {
+    className: "pol-grid"
+  }, t.pol.list.map((_ref19, i) => {
+    let [k, v] = _ref19;
+    return /*#__PURE__*/React.createElement("div", {
+      className: "pol",
+      key: i
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "k"
+    }, /*#__PURE__*/React.createElement(Ico, {
+      n: icons[i]
+    }), k), /*#__PURE__*/React.createElement("p", null, v));
+  }))));
+}
+function Gallery(_ref20) {
+  let {
+    t
+  } = _ref20;
+  const tones = [["wood", "img"], ["ink", "bed"], ["garden", "leaf"], ["sand", "coffee"], ["sky", "bed"], ["accent", "door"]];
+  return /*#__PURE__*/React.createElement("section", {
+    className: "section",
+    style: {
+      paddingTop: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "sec-head"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "h2"
+  }, t.gal.title), /*#__PURE__*/React.createElement("p", {
+    className: "note-ex"
+  }, t.gal.note)), /*#__PURE__*/React.createElement("div", {
+    className: "gal"
+  }, tones.map((_ref21, i) => {
+    let [tone, ic] = _ref21;
+    return /*#__PURE__*/React.createElement(Photo, {
+      key: i,
+      tone: tone,
+      icon: ic,
+      cap: t.gal.caps[i]
+    });
+  }))));
+}
+function CopyBtn(_ref22) {
+  let {
+    text,
+    t
+  } = _ref22;
+  const [ok, setOk] = useState(false);
+  const copy = () => {
+    const done = () => {
+      setOk(true);
+      setTimeout(() => setOk(false), 1600);
+    };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done).catch(() => {});
+  };
+  return /*#__PURE__*/React.createElement("button", {
+    className: "mini",
+    onClick: copy
+  }, ok ? t.contact.copied : t.contact.copy);
+}
+function Contact(_ref23) {
+  let {
+    t
+  } = _ref23;
+  const items = [["pin", t.contact.address, SITE.address], ["wa", t.contact.wa, SITE.whatsappLabel], ["mail", t.contact.mail, SITE.email], ["insta", "Instagram", SITE.instagram]];
+  return /*#__PURE__*/React.createElement("section", {
+    className: "section",
+    id: "contato",
+    style: {
+      paddingTop: 0
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "cta"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "eyebrow"
+  }, t.contact.eyebrow), /*#__PURE__*/React.createElement("h2", {
+    className: "h2",
+    style: {
+      marginTop: 14
+    }
+  }, t.contact.title), /*#__PURE__*/React.createElement("p", {
+    className: "lead"
+  }, t.contact.sub), /*#__PURE__*/React.createElement("div", {
+    className: "cta-actions"
+  }, /*#__PURE__*/React.createElement("a", {
+    className: "btn btn-accent",
+    href: "https://wa.me/" + SITE.whatsapp,
+    target: "_blank",
+    rel: "noopener"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "wa"
+  }), "WhatsApp"), /*#__PURE__*/React.createElement("a", {
+    className: "btn btn-ghost",
+    href: SITE.maps,
+    target: "_blank",
+    rel: "noopener"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "pin"
+  }), t.contact.maps))), /*#__PURE__*/React.createElement("div", {
+    className: "cta-list"
+  }, items.map((_ref24, i) => {
+    let [ic, k, v] = _ref24;
+    return /*#__PURE__*/React.createElement("div", {
+      className: "cta-item",
+      key: i
+    }, /*#__PURE__*/React.createElement(Ico, {
+      n: ic
+    }), /*#__PURE__*/React.createElement("div", {
+      style: {
+        minWidth: 0
+      }
+    }, /*#__PURE__*/React.createElement("small", null, k), /*#__PURE__*/React.createElement("span", null, v)), /*#__PURE__*/React.createElement(CopyBtn, {
+      text: v,
+      t: t
+    }));
+  })))));
+}
+function App() {
+  const [lang, setLangState] = useState(pickLang);
+  const [room, setRoom] = useState("any");
+  const t = T[lang];
+  const setLang = l => {
+    setLangState(l);
+    store.set("deck-lang", l);
+  };
+  useEffect(() => {
+    document.documentElement.lang = LANGS.find(l => l.code === lang).locale;
+  }, [lang]);
+  const pickRoom = r => {
+    setRoom(r);
+    go("reservar");
+  };
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Header, {
+    t: t,
+    lang: lang,
+    setLang: setLang
+  }), /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement(Hero, {
+    t: t,
+    lang: lang,
+    room: room,
+    setRoom: setRoom
+  }), /*#__PURE__*/React.createElement(Amenities, {
+    t: t
+  }), /*#__PURE__*/React.createElement(About, {
+    t: t
+  }), /*#__PURE__*/React.createElement(Rooms, {
+    t: t,
+    pickRoom: pickRoom
+  }), /*#__PURE__*/React.createElement(Region, {
+    t: t
+  }), /*#__PURE__*/React.createElement(Policies, {
+    t: t
+  }), /*#__PURE__*/React.createElement(Gallery, {
+    t: t
+  }), /*#__PURE__*/React.createElement(Contact, {
+    t: t
+  })), /*#__PURE__*/React.createElement("footer", {
+    className: "foot"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "wrap foot-in"
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9 ", new Date().getFullYear(), " ", SITE.brand, " \xB7 ", t.foot[0]), /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontFamily: "var(--f-mono)",
+      fontSize: ".76rem"
+    }
+  }, t.foot[1]))), /*#__PURE__*/React.createElement("a", {
+    className: "fab",
+    href: "https://wa.me/" + SITE.whatsapp,
+    target: "_blank",
+    rel: "noopener",
+    "aria-label": "WhatsApp"
+  }, /*#__PURE__*/React.createElement(Ico, {
+    n: "wa"
+  })));
+}
+ReactDOM.createRoot(document.getElementById("root")).render( /*#__PURE__*/React.createElement(App, null));
+</script>
+
+</body>
+</html>
